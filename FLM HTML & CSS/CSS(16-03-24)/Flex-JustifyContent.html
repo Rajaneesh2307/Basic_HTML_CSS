@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-3</title>
+    <style>
+      div p {
+        background-color: lightblue;
+        height: 50px;
+        width: 75px;
+        text-align: center;
+        padding-top: 35px;
+        /* margin: 0px; */
+      }
+      p:nth-child(2) {
+        background-color: lightcoral;
+      }
+      p:nth-child(3) {
+        background-color: lightgreen;
+      }
+      p:nth-child(4) {
+        background-color: lightseagreen;
+      }
+      p:nth-child(6) {
+        background-color: lightslategray;
+      }
+      p:nth-child(8) {
+        background-color: lightsalmon;
+      }
+      #FlexStyling {
+        display: flex;
+        /* height: 1000px; */
+        flex-direction: row;
+        /* justify-content: left; */
+        /* justify-content: right; */
+        /* justify-content: center; */
+        /* justify-content: flex-end; */
+        /* justify-content: flex-start; */
+        /* justify-content: space-around; */
+        /* justify-content: space-between; */
+        justify-content: space-evenly;
+      }
+      /* If we want to use align-items in row we need to give either height or width to the main FlexStyling otherwise cannot work */
+    </style>
+  </head>
+  <body>
+    <div id="FlexStyling">
+      <p>R1</p>
+      <p>R2</p>
+      <p>R3</p>
+      <p>R4</p>
+      <p>R5</p>
+      <p>R6</p>
+    </div>
+  </body>
+</html>

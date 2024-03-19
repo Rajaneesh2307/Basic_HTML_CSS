@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-4</title>
+    <style>
+      div p {
+        background-color: lightblue;
+        height: 50px;
+        width: 75px;
+        text-align: center;
+        padding-top: 35px;
+        /* margin: 0px; */
+      }
+      p:nth-child(2) {
+        background-color: lightcoral;
+      }
+      p:nth-child(3) {
+        background-color: lightgreen;
+      }
+      p:nth-child(4) {
+        background-color: lightseagreen;
+      }
+      p:nth-child(5) {
+        background-color: lightgray;
+      }
+      p:nth-child(6) {
+        background-color: lightsalmon;
+      }
+      #FlexStyling {
+        display: flex;
+        flex-direction: column;
+        /* height: 1000px; */
+        /* justify-content: end; */
+        /* justify-content: space-between; */
+        /* align-items: flex-end; */
+        /* align-items: flex-start; */
+        /* align-items: center; */
+        /* align-items: start; */
+        /* align-items: end; */
+      }
+      /* If we want to use justify-content in column we need to give either height or width to the main FlexStyling otherwise cannot work */
+    </style>
+  </head>
+  <body>
+    <div id="FlexStyling">
+      <p>R1</p>
+      <p>R2</p>
+      <p>R3</p>
+      <p>R4</p>
+      <p>R5</p>
+      <p>R6</p>
+    </div>
+  </body>
+</html>
